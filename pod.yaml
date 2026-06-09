@@ -3,8 +3,8 @@ kind: Pod
 metadata:
   labels:
     run: nginx
-    env: dev
-  name: pod1
+    env: prod
+  name: prod_pod1
 spec:
   containers:
   - image: nginx
