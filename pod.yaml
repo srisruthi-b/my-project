@@ -4,7 +4,7 @@ metadata:
   labels:
     run: nginx
     env: dev
-  name: pod2
+  name: pod1
 spec:
   containers:
   - image: nginx
