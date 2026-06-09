@@ -4,9 +4,9 @@ metadata:
   labels:
     run: nginx
     dontrun: nginx
-    env: dev
+    env: prod
     default: prod
-  name: pod1
+  name: prod_pod1
 spec:
   containers:
   - image: nginx
