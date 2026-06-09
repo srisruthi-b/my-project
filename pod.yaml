@@ -3,7 +3,9 @@ kind: Pod
 metadata:
   labels:
     run: nginx
+    dontrun: nginx
     env: prod
+    default: prod
   name: prod_pod1
 spec:
   containers:
